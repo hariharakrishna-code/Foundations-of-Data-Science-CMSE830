@@ -22,16 +22,9 @@ st.set_page_config(
 # 2. Find and load the dataset
 # --------------------------------------------------
 
-APP_DIR = Path(__file__).resolve().parent
 
-DATA_CANDIDATES = [
-    APP_DIR / "data" / "clean_data.csv",
-    APP_DIR / "artifacts" / "dataset" / "clean_data" / "clean_data.csv",
-    APP_DIR.parent / "Books-Recommender-System" /
-    "artifacts" / "dataset" / "clean_data" / "clean_data.csv",
-    Path.home() / "Downloads" / "Books-Recommender-System" /
-    "artifacts" / "dataset" / "clean_data" / "clean_data.csv",
-]
+APP_DIR = Path(__file__).resolve().parent
+DATA_PATH = APP_DIR / "data" / "clean_data.csv"
 
 
 @st.cache_data
@@ -39,10 +32,16 @@ def load_data(path):
     return pd.read_csv(path)
 
 
-DATA_PATH = next(
-    (path for path in DATA_CANDIDATES if path.is_file()),
-    None
-)
+if not DATA_PATH.is_file():
+    st.error(f"Dataset not found: {DATA_PATH}")
+    st.stop()
+
+try:
+    df = load_data(str(DATA_PATH))
+except Exception as error:
+    st.error(f"The dataset could not be loaded: {error}")
+    st.stop()
+
 
 
 # --------------------------------------------------

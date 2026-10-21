@@ -138,3 +138,18 @@ Hariharakrishna Navaneethakrishnan
 ## Repository
 
 https://github.com/hariharakrishna-code/Foundations-of-Data-Science-CMSE830
+
+
+## Application Screenshots
+
+### Home
+![Home page](screenshots/home.png)
+
+### Explore Books
+![Explore Books page](screenshots/explore-books.png)
+
+### Data Insights
+![Data Insights page](screenshots/data-insights.png)
+
+### Data Quality and Limitations
+![Data Quality page](screenshots/data-quality.png)

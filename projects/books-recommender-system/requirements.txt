@@ -1,6 +1,10 @@
+
 pandas
-streamlit
+numpy
 matplotlib
+streamlit
+jupyter
+ipykernel
 cat > .gitignore
 .DS_Store
 __pycache__/

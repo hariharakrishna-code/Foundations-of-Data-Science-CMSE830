@@ -160,4 +160,18 @@ https://github.com/hariharakrishna-code/Foundations-of-Data-Science-CMSE830
 
 Explore book information, rating patterns, and data-quality findings through the interactive application.
 
-**Note:** This is an exploratory prototype. Personalized recommendations have not yet been implemented.
+**Note:** This is an exploratory prototype. Personalized recommendations have not yet been implemented. 
+
+Reproducibility
+
+Application entry point: app.py
+
+Dependencies: requirements.txt
+
+Dataset: data/clean_data.csv
+
+Run locally using:
+
+python -m streamlit run app.py
+
+Ensure the dataset is available at the expected path before running the application.

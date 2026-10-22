@@ -156,7 +156,7 @@ https://github.com/hariharakrishna-code/Foundations-of-Data-Science-CMSE830
 
 ## Live Demo
 
-**Deployed Streamlit App:** [Books Recommender System](https://hari-projectsbooks-recommender-systemapp-mwtyoe.streamlit.app/)
+**Deployed Streamlit App:** [Books Recommender System]([https://hari-projectsbooks-recommender-systemapp-mwtyoe.streamlit.app/](https://hari-projectsbooks-recommender-systemapp-mwtvoe.streamlit.app/))
 
 Explore book information, rating patterns, and data-quality findings through the interactive application.
 

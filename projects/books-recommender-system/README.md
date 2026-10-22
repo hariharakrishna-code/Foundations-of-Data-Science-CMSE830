@@ -153,3 +153,11 @@ https://github.com/hariharakrishna-code/Foundations-of-Data-Science-CMSE830
 
 ### Data Quality and Limitations
 ![Data Quality page](screenshots/data-quality.png)
+
+## Live Demo
+
+**Deployed Streamlit App:** [Books Recommender System](https://hari-projectsbooks-recommender-systemapp-mwtyoe.streamlit.app/)
+
+Explore book information, rating patterns, and data-quality findings through the interactive application.
+
+**Note:** This is an exploratory prototype. Personalized recommendations have not yet been implemented.

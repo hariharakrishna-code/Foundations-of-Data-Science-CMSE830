@@ -129,9 +129,13 @@ The exploratory analysis notebook is located at `notebooks/Books_Recommender_EDA
 
 ## AI Use Disclosure
 
-Document any generative AI assistance used in debugging or running the Streamlit application, following the course's disclosure requirements. The project's analysis, decisions, and interpretation should be described accurately.
+**Tool used:** ChatGPT (GPT-6).
 
-## Author
+**Purpose of use:** I used ChatGPT to help understand data science concepts, troubleshoot Python and Streamlit issues, debug the application, and improve project documentation.
+
+**Verification:** I tested the application after making changes, checked whether the dataset loaded correctly, and verified that the application pages and displayed results worked as expected.
+
+**My contribution:** I was responsible for the project direction, dataset exploration, data-quality assessment, visualization choices, interpretation of findings, identification of limitations, application testing, and final presentation. I reviewed the suggested changes and remain responsible for the final project and its conclusions.
 
 Hariharakrishna Navaneethakrishnan
 
